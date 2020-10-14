@@ -80,9 +80,8 @@ h2.active {
 
 
 /* FORM TYPOGRAPHY*/
-
-input[type=button], input[type=submit], input[type=reset]  {
-  background-color: #f0ad4e;
+.loginbtn{
+	background-color: #f0ad4e;
   border: none;
   color: white;
   padding: 15px 80px;
@@ -102,6 +101,10 @@ input[type=button], input[type=submit], input[type=reset]  {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+/* input[type=button], input[type=submit], input[type=reset]  {
+ 
+} */
 
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
   background-color: #f0ad4e;
@@ -145,6 +148,34 @@ input[type=text]:placeholder {
   color: #cccccc;
 }
 
+input[type=password] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f0ad4e;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+input[type=password]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type=password]:placeholder {
+  color: #cccccc;
+}
 
 
 /* ANIMATIONS */
@@ -264,7 +295,22 @@ input[type=text]:placeholder {
 <section id="elearning-login">
 <div class="wrapper fadeInDown">
   <div id="formContent">
-    <!-- Tabs Titles -->
+	<!-- Tabs Titles -->
+	
+	<div class="alert alert-danger alert-dismissible" id='danger'>
+  	<button type="button" class="close" data-dismiss="alert">&times;</button>
+  		Invalid login
+	</div>
+
+	<div class="alert alert-danger alert-dismissible" id='nousername'>
+  	<button type="button" class="close" data-dismiss="alert">&times;</button>
+  		Enter username
+	</div>
+
+	<div class="alert alert-danger alert-dismissible" id='nopassword'>
+  	<button type="button" class="close" data-dismiss="alert">&times;</button>
+  		Enter password
+	</div>
 
     <!-- Icon -->
     <div class="fadeIn first">
@@ -277,8 +323,8 @@ input[type=text]:placeholder {
 		<label style="float:left; margin-left:35px; color:#f0ad4e;">usernmae</label>
 	  	<input type="text" id="login" class="fadeIn second bg-green" name="login" placeholder="">
 	  	<label style="float:left; margin-left:35px; color:#f0ad4e;">password</label>
-      	<input type="text" id="password" class="fadeIn third" name="login" placeholder="">
-      	<input type="submit" class="fadeIn fourth" value="Log In">
+      	<input type="password" id="password" class="fadeIn third" name="password" placeholder="">
+		<div class="btn btn-warning fadeIn fourth loginbtn">Log in</div>
     </form>
 
     <!-- Remind Passowrd -->
@@ -288,5 +334,41 @@ input[type=text]:placeholder {
 
   </div>
 </div>
+
 </section>	
 <?php include 'footer.php'; ?>
+
+<script>
+$(document).ready(function(){
+	$('#danger').hide();
+	$('#nousername').hide();
+	$('#nopassword').hide();
+
+    $('.loginbtn').on('click',function(){
+		
+		var un=$('#login').val();
+		var pw=$('#password').val();
+
+		if(un ==''){
+			$('#nopassword').hide();
+			$('#nousername').show();
+		}
+		else if(pw ==''){
+			$('#nousername').hide();
+			$('#nopassword').show();
+		}
+		else if(un == 'user' && pw == '123'){
+			document.location.href = "#";
+		}
+		else if(un == 'admin' && pw == '123'){
+			document.location.href = "#";
+		}
+		else{
+			$('#danger').show();
+		}
+		
+    });
+
+});
+
+</script>

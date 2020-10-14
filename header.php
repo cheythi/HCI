@@ -63,7 +63,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">
+	      <a class="navbar-brand" href="index.php">
 	      	<img src="assets/badge.png" alt="">
 		  </a>
 		  <h2 class="header-badges">Musaseus College</h2>
