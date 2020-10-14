@@ -364,6 +364,8 @@ $(document).ready(function(){
 			document.location.href = "#";
 		}
 		else{
+			$('#nousername').hide();
+			$('#nopassword').hide();
 			$('#danger').show();
 		}
 
