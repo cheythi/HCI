@@ -1,0 +1,174 @@
+.header-badges {
+    margin-top: 3.2rem !important;
+    margin-left: 0.2rem !important;
+    position: absolute !important;
+    display: inline-flex !important; 
+    text-transform:uppercase !important;
+}
+
+.header-cheat{
+    opacity: 0.0;
+}
+
+.home_btn_row{
+    margin-top: 2rem !important;
+}
+
+.home_btn_row_style{
+    font-size: 2rem;
+}
+
+.flex{
+    /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 991.98px) { 
+    .resp_head_btn{
+        margin-top: 1rem;
+    }
+}
+
+.card_btn{
+    margin-top: 1rem;
+}
+
+.news_btn{
+    margin-top: 2rem;
+}
+
+.topic_underline{
+    width: 10rem;
+    height: 0.3rem;
+    background-color: #0275d8;
+    margin: 0 auto 2rem;
+}
+
+@media (max-width: 767.98px) { 
+    .resp_news{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+ }
+
+
+ .read_more_homepg{
+     margin-top: 3rem;
+ }
+
+ /* header musaeus title */
+ @media (max-width: 991.98px) { 
+     .header-badges{
+         font-size: 20px;
+     }
+  }
+
+  @media (max-width: 892px) { 
+    .header-badges{
+        font-size: 15px;
+    }
+ }
+
+ @media (max-width: 834px) { 
+    .header-badges{
+        font-size: 12px;
+    }
+ }
+
+ @media (max-width: 800px) { 
+    .header-badges{
+        font-size: 10px;
+    }
+ }
+
+ @media (max-width: 767px) { 
+    .header-badges{
+        font-size: 20px;
+    }
+ }
+
+ @media (max-width: 360px) { 
+    .header-badges{
+        font-size: 12px;
+    }
+ }
+/* mari qri 4to */
+ @media (max-width: 767px) { 
+    .mari{
+        margin-bottom: 5rem;
+    }
+ }
+
+ /* main page main 3 categories 1510*/
+.img_menu{
+    width: 45rem !important;
+    border-radius: 1rem;
+}
+
+ @media (max-width: 1400px) { 
+    .img_menu{
+        width: 40rem !important;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 1260px) { 
+    .img_menu{
+        width: 40rem !important;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 1246px) { 
+    .img_menu{
+        width: 35rem !important;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 400px) { 
+    .img_menu{
+        width: 30rem !important;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 350px) { 
+    .img_menu{
+        width: 25rem !important;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 300px) { 
+    .img_menu{
+        width: 20rem !important;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 246px) { 
+    .img_menu{
+        width: 15rem !important;
+        border-radius: 1rem;
+    }
+}
+
+.under-clr{
+    background-color: #f0ad4e;
+}
+
+#elearning-login
+{
+    background: url(../assets/musaeus9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    text-align: center;
+    height: 70rem;
+}
