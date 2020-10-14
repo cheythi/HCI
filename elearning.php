@@ -366,7 +366,7 @@ $(document).ready(function(){
 		else{
 			$('#danger').show();
 		}
-		
+
     });
 
 });
