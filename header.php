@@ -77,17 +77,17 @@
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="service.php">Project Management</a></li>
+	            <li><a href="service.php">bla bla bla bla</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Build Homes and Duplex</a></li>
+	            <li><a href="#">bla bla bla bla</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Granny Flats</a></li>
+	            <li><a href="#">bla bla bla bla</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Bathroom Renovations</a></li>
+	            <li><a href="#">bla bla bla bla</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">House Renovations</a></li>
+	            <li><a href="#">bla bla bla bla</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Commercial Fit Out </a></li>
+	            <li><a href="#">bla bla bla bla</a></li>
 	          </ul>
 	        </li>
 	        <li><a href="gallery.php">Gallery</a></li>
