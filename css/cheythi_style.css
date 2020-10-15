@@ -196,3 +196,15 @@
         width:18rem;
     }
  }
+
+ /* user page css  */
+
+ #user
+{
+    background: url(../assets/musaeus10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    height: 100rem;
+}

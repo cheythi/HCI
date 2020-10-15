@@ -358,7 +358,7 @@ $(document).ready(function(){
 			$('#nopassword').show();
 		}
 		else if(un == 'user' && pw == '123'){
-			document.location.href = "#";
+			document.location.href = "user.php";
 		}
 		else if(un == 'admin' && pw == '123'){
 			document.location.href = "admin.php";
