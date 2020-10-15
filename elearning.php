@@ -361,7 +361,7 @@ $(document).ready(function(){
 			document.location.href = "#";
 		}
 		else if(un == 'admin' && pw == '123'){
-			document.location.href = "#";
+			document.location.href = "admin.php";
 		}
 		else{
 			$('#nousername').hide();
