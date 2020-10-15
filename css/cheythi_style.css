@@ -172,3 +172,27 @@
     text-align: center;
     height: 70rem;
 }
+
+/* admin page css */
+#adminloginpage
+{
+    background: url(../assets/musaeus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    height: 70rem;
+}
+
+/* admin page head btns media quaries */
+.respbtn{
+    width:12rem;
+}
+@media (max-width: 767px) { 
+    .respbtnd{
+        margin-top: 1rem;
+    }
+    .respbtn{
+        width:18rem;
+    }
+ }
