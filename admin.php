@@ -218,6 +218,17 @@ table.table .avatar {
 .modal form label {
 	font-weight: normal;
 }	
+
+.modal-testmodal {
+  position: absolute;
+  top: 15rem;
+  right: 100px;
+  bottom: 0;
+  left: 0;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
+}
 </style>
 <script>
 $(document).ready(function(){
@@ -256,8 +267,11 @@ $(document).ready(function(){
 						<h2>Student Login Management dashboard</b></h2>
 					</div>
 					<div class="col-sm-6">
-						<a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="fa fa-file-excel-o" aria-hidden="true"></i><span>Import</span></a>
-						<a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="fa fa-plus" aria-hidden="true"></i> <span>Add New Employee</span></a>
+						<div class="col-sm-1">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width:15rem;">
+						</div>
+						<a href="#importModal" class="btn btn-success" data-toggle="modal"><i class="fa fa-file-excel-o" aria-hidden="true"></i><span>Import</span></a>
+						<a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="fa fa-plus" aria-hidden="true"></i> <span>Add New Student</span></a>
 						<a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="fa fa-trash" aria-hidden="true"></i><span>Delete</span></a>						
 					</div>
 				</div>
@@ -276,6 +290,7 @@ $(document).ready(function(){
 						<th>Grade</th>
 						<th>Username</th>
 						<th>Password</th>
+						<th>Status</th>
 						<th>Actions</th>
 					</tr>
 				</thead>
@@ -287,46 +302,107 @@ $(document).ready(function(){
 								<label for="checkbox1"></label>
 							</span>
 						</td>
-						<td>66445</td>
-						<td>Chethana dasanayaka</td>
-						<td>Ampitiya, Kandy</td>
-						<td>chethana</td>
-						<td>Chethana@#123</td>
+						<td>10105</td>
+						<td>Sachini Uththara</td>
+						<td>6 - B</td>
+						<td>sachini</td>
+						<td>Sachini@#123</td>
+						<td><span class="label label-success flex">Active</span></td>
 						<td>
 							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
 							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="fa fa-trash" aria-hidden="true"></i></a>
 						</td>
 					</tr>
-					
+
+					<tr>
+						<td>
+							<span class="custom-checkbox">
+								<input type="checkbox" id="checkbox1" name="options[]" value="1">
+								<label for="checkbox1"></label>
+							</span>
+						</td>
+						<td>4526</td>
+						<td>Ranmini Dasanayaka</td>
+						<td>1 - A</td>
+						<td>ranmini</td>
+						<td>Ranmini@#123</td>
+						<td><span class="label label-success flex">Active</span></td>
+						<td>
+							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
+							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="fa fa-trash" aria-hidden="true"></i></a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="custom-checkbox">
+								<input type="checkbox" id="checkbox1" name="options[]" value="1">
+								<label for="checkbox1"></label>
+							</span>
+						</td>
+						<td>4528</td>
+						<td>Yeshani Dasanayaka</td>
+						<td>1 - B</td>
+						<td>Yeshani</td>
+						<td>Yeshani@#123</td>
+						<td><span class="label label-success flex">Active</span></td>
+						<td>
+							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
+							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="fa fa-trash" aria-hidden="true"></i></a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="custom-checkbox">
+								<input type="checkbox" id="checkbox1" name="options[]" value="1">
+								<label for="checkbox1"></label>
+							</span>
+						</td>
+						<td>3565</td>
+						<td>Lihini Kierra</td>
+						<td>5 - C</td>
+						<td>Lihini</td>
+						<td>Lihini@#123</td>
+						<td><span class="label label-default flex">Inactive</span></td>
+						<td>
+							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
+							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="fa fa-trash" aria-hidden="true"></i></a>
+						</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
 	</div>        
 </div>
 <!-- Edit Modal HTML -->
-<div id="addEmployeeModal" class="modal fade">
+<div id="addEmployeeModal" class="modal fade modal-testmodal">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<form>
 				<div class="modal-header">						
-					<h4 class="modal-title">Add Employee</h4>
+					<h4 class="modal-title">Add Student</h4>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body">					
 					<div class="form-group">
-						<label>Name</label>
+						<label>Index No:</label>
 						<input type="text" class="form-control" required>
 					</div>
 					<div class="form-group">
-						<label>Email</label>
-						<input type="email" class="form-control" required>
+						<label>Name:</label>
+						<input type="text" class="form-control" required>
 					</div>
 					<div class="form-group">
-						<label>Address</label>
-						<textarea class="form-control" required></textarea>
+						<label>Grade:</label>
+						<input type="text" class="form-control" required>
 					</div>
 					<div class="form-group">
-						<label>Phone</label>
+						<label>Username:</label>
+						<input type="text" class="form-control" required>
+					</div>	
+					<div class="form-group">
+						<label>Password:</label>
 						<input type="text" class="form-control" required>
 					</div>					
 				</div>
@@ -339,47 +415,51 @@ $(document).ready(function(){
 	</div>
 </div>
 <!-- Edit Modal HTML -->
-<div id="editEmployeeModal" class="modal fade">
+<div id="editEmployeeModal" class="modal fade modal-testmodal">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<form>
 				<div class="modal-header">						
-					<h4 class="modal-title">Edit Employee</h4>
+					<h4 class="modal-title">Edit Studnt</h4>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body">					
 					<div class="form-group">
-						<label>Name</label>
+						<label>Index No:</label>
 						<input type="text" class="form-control" required>
 					</div>
 					<div class="form-group">
-						<label>Email</label>
-						<input type="email" class="form-control" required>
+						<label>Name:</label>
+						<input type="text" class="form-control" required>
 					</div>
 					<div class="form-group">
-						<label>Address</label>
-						<textarea class="form-control" required></textarea>
+						<label>Grade:</label>
+						<input type="text" class="form-control" required>
 					</div>
 					<div class="form-group">
-						<label>Phone</label>
+						<label>Username:</label>
+						<input type="text" class="form-control" required>
+					</div>	
+					<div class="form-group">
+						<label>Password:</label>
 						<input type="text" class="form-control" required>
 					</div>					
 				</div>
 				<div class="modal-footer">
 					<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-					<input type="submit" class="btn btn-info" value="Save">
+					<input type="submit" class="btn btn-success" value="Add">
 				</div>
 			</form>
 		</div>
 	</div>
 </div>
 <!-- Delete Modal HTML -->
-<div id="deleteEmployeeModal" class="modal fade">
+<div id="deleteEmployeeModal" class="modal fade modal-testmodal">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<form>
 				<div class="modal-header">						
-					<h4 class="modal-title">Delete Employee</h4>
+					<h4 class="modal-title">Delete Student</h4>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body">					
@@ -389,6 +469,32 @@ $(document).ready(function(){
 				<div class="modal-footer">
 					<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
 					<input type="submit" class="btn btn-danger" value="Delete">
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- import modal -->
+<div id="importModal" class="modal fade modal-testmodal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<form>
+				<div class="modal-header">						
+					<h4 class="modal-title">Import Student Details</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">					
+					<form enctype="multipart/form-data" method="post" role="form">
+						<div class="form-group">
+						<label for="exampleInputFile">File Upload</label>
+						<input type="file" name="file" id="file" size="150">
+						<p class="help-block">Only Excel/CSV File Import.</p>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+					<input type="submit" class="btn btn-warning" value="Import">
 				</div>
 			</form>
 		</div>
