@@ -75,19 +75,17 @@
 	        <li class="active"><a href="index.php">Home</a></li>
 	        <li><a href="about.php">About</a></li>
 	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Societies & Clubs <span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="service.php">bla bla bla bla</a></li>
+	            <li><a href="#">Gavel Club</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">bla bla bla bla</a></li>
+	            <li><a href="#">ICT Club</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">bla bla bla bla</a></li>
+	            <li><a href="#">Senior Science Society</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">bla bla bla bla</a></li>
+	            <li><a href="#">Wild Life Conservation Society</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">bla bla bla bla</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">bla bla bla bla</a></li>
+	            <li><a href="#">Young Inventors' Club</a></li>
 	          </ul>
 	        </li>
 	        <li><a href="gallery.php">Gallery</a></li>

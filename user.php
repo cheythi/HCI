@@ -41,6 +41,9 @@ span{
     padding: 3px 10px 2px;
     color:black;
 }
+.bxclr{
+    background-color:#f0ecda;
+}
 </style>
 <section id="user" class="container-fluid">
     <div class="container">
@@ -54,7 +57,7 @@ span{
                 
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 
-                        <div class="box-part text-center">
+                        <div class="box-part text-center bxclr">
                             
                             <i class="fa fa-language fa-3x clr" aria-hidden="true"></i>
                             
@@ -69,14 +72,14 @@ span{
                                 <span class="progress-completed">95%</span>
                             </div>
                             
-                            <div class="btn btn-primary">Enter Course</div>
+                            <div class="btn btn-primary">Start lessons</div>
                             
                         </div>
                     </div>	 
                     
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 
-                        <div class="box-part text-center">
+                        <div class="box-part text-center bxclr">
                             
                             <i class="fa fa-language fa-3x clr" aria-hidden="true"></i>
                             
@@ -85,20 +88,20 @@ span{
                             </div>
 
                             <div class="progress">
-                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                    <span class="sr-only">60% Complete (warning)</span>
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                    <span class="sr-only">45% Complete (warning)</span>
                                 </div>
-                                <span class="progress-completed">60%</span>
+                                <span class="progress-completed">45%</span>
                             </div>
                             
-                            <div class="btn btn-primary">Enter Course</div>
+                            <div class="btn btn-primary">Start lessons</div>
                             
                         </div>
                     </div>	 
                     
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 
-                        <div class="box-part text-center">
+                        <div class="box-part text-center bxclr">
                             
                             <i class="fa fa-sort-numeric-desc fa-3x clr" aria-hidden="true"></i>
                             
@@ -113,14 +116,14 @@ span{
                                 <span class="progress-completed">60%</span>
                             </div>
                             
-                            <div class="btn btn-primary">Enter Course</div>
+                            <div class="btn btn-primary">Start lessons</div>
                             
                         </div>
                     </div>	 
                     
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 
-                        <div class="box-part text-center">
+                        <div class="box-part text-center bxclr">
                             
                             <i class="fa fa-flask fa-3x clr" aria-hidden="true"></i>
                             
@@ -129,20 +132,20 @@ span{
                             </div>
 
                             <div class="progress">
-                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                    <span class="sr-only">60% Complete (warning)</span>
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                    <span class="sr-only">70% Complete (warning)</span>
                                 </div>
-                                <span class="progress-completed">60%</span>
+                                <span class="progress-completed">70%</span>
                             </div>
                             
-                            <div class="btn btn-primary">Enter Course</div>
+                            <div class="btn btn-primary">Start lessons</div>
                             
                         </div>
                     </div>
                     
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 
-                        <div class="box-part text-center">
+                        <div class="box-part text-center bxclr">
                             
                             <i class="fa fa-history fa-3x clr" aria-hidden="true"></i>
                             
@@ -151,20 +154,20 @@ span{
                             </div>
 
                             <div class="progress">
-                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                    <span class="sr-only">60% Complete (warning)</span>
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100" style="width: 28%">
+                                    <span class="sr-only">28% Complete (warning)</span>
                                 </div>
-                                <span class="progress-completed">60%</span>
+                                <span class="progress-completed">28%</span>
                             </div>
                             
-                            <div class="btn btn-primary">Enter Course</div>
+                            <div class="btn btn-primary">Start lessons</div>
                             
                         </div>
                     </div>	 
                     
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 
-                        <div class="box-part text-center">
+                        <div class="box-part text-center bxclr">
                             
                             <i class="fa fa-globe fa-3x clr" aria-hidden="true"></i>
                             
@@ -179,7 +182,7 @@ span{
                                 <span class="progress-completed">10%</span>
                             </div>
                             
-                            <div class="btn btn-primary">Enter Course</div>
+                            <div class="btn btn-primary">Start lessons</div>
                             
                         </div>
                     </div>

@@ -9,7 +9,8 @@
 					<div class="footer_logo">
 						<img src="assets/badge.png" alt="" class="img-responsive">
 					</div>
-					<p>About school Bla bla bla bla bla bla bla bla bla blaaaaaaaaaa blaaaaa bla blaaaaaaaa blaaaaaaaaa </p>
+					<p>Carrying forward the noble cause of our founders, Musaeus College is run by a Trust Board as a non-profit
+					 education institution for educating the young Sinhala Buddhist women in Sri Lanka.</p>
 					
 					<div class="footer_social">
 						<ul>
@@ -29,7 +30,7 @@
 					<ul>
 						<li><a href="#"><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>Home</a></li>
 						<li><a href="#"><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>About</a></li>
-						<li><a href="#"><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>Service</a></li>
+						<li><a href="#"><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>Societies & Clubs</a></li>
 						<li><a href="#"><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>Gallery</a></li>
 						<li><a href="#"><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>Contact</a></li>
 					</ul>
