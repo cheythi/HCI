@@ -351,25 +351,6 @@ $(document).ready(function(){
 							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="fa fa-trash" aria-hidden="true"></i></a>
 						</td>
 					</tr>
-
-					<tr>
-						<td>
-							<span class="custom-checkbox">
-								<input type="checkbox" id="checkbox1" name="options[]" value="1">
-								<label for="checkbox1"></label>
-							</span>
-						</td>
-						<td>3565</td>
-						<td>Lihini Kierra</td>
-						<td>5 - C</td>
-						<td>Lihini</td>
-						<td>Lihini@#123</td>
-						<td><span class="label label-default flex">Inactive</span></td>
-						<td>
-							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
-							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="fa fa-trash" aria-hidden="true"></i></a>
-						</td>
-					</tr>
 				</tbody>
 			</table>
 		</div>
